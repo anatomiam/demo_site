@@ -12,7 +12,7 @@ class Home extends Component {
         <div className="box upper-left-corner">About</div>
         <div className="box upper-right-corner">Contact</div>
         <div className="box lower-left-corner">Work</div>
-        <div className="box lower-right-corner">Projects</div>
+        <div className="box lower-right-corner"><a href="http://haiku.edulcet.local" >Projects</a></div>
       </div>
     );
   }
