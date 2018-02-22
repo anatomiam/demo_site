@@ -1,13 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Projects extends Component {
-  render() {
-    return (
-      <div className="box body">
-        <h1>Projects</h1>
-      </div>
-    );
-  }
-}
+const Projects = () => (
+  <div className="box body">
+    <h1>Projects</h1>
+  </div>
+);
 
 export default Projects;

@@ -1,13 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Work extends Component {
-  render() {
-    return (
-      <div className="box body">
-        <h1>Work</h1>
-      </div>
-    );
-  }
-}
+const Work = () => (
+  <div className="box body">
+    <h1>Work</h1>
+  </div>
+);
 
 export default Work;
