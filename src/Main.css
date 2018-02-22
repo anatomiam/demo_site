@@ -1,22 +1,26 @@
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 div {
-    border: 1px solid steelblue;
+  border: 1px solid steelblue;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ovo', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ovo", sans-serif;
 }
 .grid-container {
   display: grid;
   grid-template-columns: 20vw 1fr 20vw;
-  grid-template-rows: 33vh 33vh 33vh;                  
+  grid-template-rows: 33vh 33vh 33vh;
   grid-gap: 1rem;
   align-items: center;
   justify-items: center;
 }
 .box {
-
 }
 .body {
   grid-column: 1 / 4;
