@@ -1,9 +1,9 @@
 import React from "react";
 
 const Work = () => (
-  <div className="box body">
+  <React.Fragment>
     <h1>Work</h1>
-  </div>
+  </React.Fragment>
 );
 
 export default Work;

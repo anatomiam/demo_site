@@ -1,9 +1,9 @@
 import React from "react";
 
 const About = () => (
-  <div className="box body">
+  <React.Fragment>
     <h1>About Me</h1>
-  </div>
+  </React.Fragment>
 );
 
 export default About;

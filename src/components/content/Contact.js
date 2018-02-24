@@ -1,9 +1,9 @@
 import React from "react";
 
 const Contact = () => (
-  <div className="box body">
+  <React.Fragment>
     <h1>Contact</h1>
-  </div>
+  </React.Fragment>
 );
 
 export default Contact;

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Projects = () => (
-  <div className="box body">
+  <React.Fragment>
     <h1>Projects</h1>
     <h2>
       <a href="http://bio.edulcet.local">Bio</a>
@@ -12,7 +12,7 @@ const Projects = () => (
     <h2>
       <a href="http://blink.edulcet.local">Blink</a>
     </h2>
-  </div>
+  </React.Fragment>
 );
 
 export default Projects;
