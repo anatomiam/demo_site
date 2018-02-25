@@ -15,9 +15,9 @@ const Navigation = () => (
     <Link to="/projects" className="navigation-items">
       <h3>Projects</h3>
     </Link>
-    <Link to="/work" className="navigation-items">
+    <a href="/work" className="navigation-items">
       <h3>Resume</h3>
-    </Link>
+    </a>
   </div>
 );
 
