@@ -15,7 +15,7 @@ const Navigation = () => (
     <Link to="/projects" className="navigation-items">
       <h3>Projects</h3>
     </Link>
-    <a href="/work" className="navigation-items">
+    <a href="/static/Eric_Dulcet_Resume.pdf" className="navigation-items">
       <h3>Resume</h3>
     </a>
   </div>
