@@ -1,10 +1,10 @@
 import React from "react";
 
 const Landing = () => (
-  <React.Fragment>
+  <div>
     <h1>Eric Dulcet</h1>
     <h3>Developer & Designer</h3>
-  </React.Fragment>
+  </div>
 );
 
 export default Landing;

@@ -7,7 +7,7 @@ import Work from "./content/Work";
 import Projects from "./content/Projects";
 
 const Body = () => (
-  <div className="content">
+  <div className="content-container">
     <Switch>
       <Route exact path="/" component={Landing} />
       <Route path="/about" component={About} />

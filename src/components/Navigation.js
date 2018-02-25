@@ -2,20 +2,20 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 const Navigation = () => (
-  <div className="navigation">
-    <Link to="/" className="">
+  <div className="navigation-container">
+    <Link to="/" className="navigation-items">
       <h3>etd</h3>
     </Link>
-    <Link to="/about" className="">
+    <Link to="/about" className="navigation-items">
       <h3>About</h3>
     </Link>
-    <Link to="/contact" className="">
+    <Link to="/contact" className="navigation-items">
       <h3>Contact</h3>
     </Link>
-    <Link to="/projects" className="">
+    <Link to="/projects" className="navigation-items">
       <h3>Projects</h3>
     </Link>
-    <Link to="/work" className="">
+    <Link to="/work" className="navigation-items">
       <h3>Resume</h3>
     </Link>
   </div>
