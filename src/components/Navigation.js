@@ -3,17 +3,20 @@ import React from "react";
 
 const Navigation = () => (
   <div className="navigation">
+    <Link to="/" className="">
+      <h3>etd</h3>
+    </Link>
     <Link to="/about" className="">
-      About
+      <h3>About</h3>
     </Link>
     <Link to="/contact" className="">
-      Contact
-    </Link>
-    <Link to="/work" className="">
-      Work
+      <h3>Contact</h3>
     </Link>
     <Link to="/projects" className="">
-      Projects
+      <h3>Projects</h3>
+    </Link>
+    <Link to="/work" className="">
+      <h3>Resume</h3>
     </Link>
   </div>
 );

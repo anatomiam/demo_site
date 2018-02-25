@@ -31,6 +31,10 @@ h6 {
   grid-row: 1 / 6;
 }
 .navigation {
+  display: grid;
+  align-items: center;
+  height: 100%;
+
   grid-column: 1 / 2;
   grid-row: 1 / 6;
 }
