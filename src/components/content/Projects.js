@@ -4,13 +4,13 @@ const Projects = () => (
   <React.Fragment>
     <h1>Projects</h1>
     <h2>
-      <a href="http://bio.edulcet.local">Bio</a>
+      <a href="http://bio.edulcet.com">Bio</a>
     </h2>
     <h2>
-      <a href="http://haiku.edulcet.local">Haiku</a>
+      <a href="http://haiku.edulcet.com">Haiku</a>
     </h2>
     <h2>
-      <a href="http://blink.edulcet.local">Blink</a>
+      <a href="http://blink.edulcet.com">Blink</a>
     </h2>
   </React.Fragment>
 );
