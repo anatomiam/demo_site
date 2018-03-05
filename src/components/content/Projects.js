@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => (
   <React.Fragment>
-    <h1>Projects</h1>
+    <h1 className="underline">Projects</h1>
     <h2>
       <a href="http://bio.edulcet.com">Bio</a>
     </h2>

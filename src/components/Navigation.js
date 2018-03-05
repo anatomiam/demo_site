@@ -4,7 +4,7 @@ import React from "react";
 const Navigation = () => (
   <div className="navigation-container">
     <Link to="/" className="navigation-items">
-      <h3>etd</h3>
+      <h3>Main</h3>
     </Link>
     <Link to="/about" className="navigation-items">
       <h3>About</h3>
@@ -15,9 +15,9 @@ const Navigation = () => (
     <Link to="/contact" className="navigation-items">
       <h3>Contact</h3>
     </Link>
-    <a href="/s/Eric_Dulcet_Resume.pdf" className="navigation-items">
+    {/* <a href="/s/Eric_Dulcet_Resume.pdf" className="navigation-items">
       <h3>Resume</h3>
-    </a>
+    </a> */}
   </div>
 );
 
