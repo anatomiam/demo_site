@@ -1,3 +1,6 @@
+body {
+  background-color: var(--content);
+}
 :root {
   --content: #f7f9fb;
   --navigation: #b4b5b4;
@@ -16,64 +19,43 @@ h6 {
   font-family: "Ovo", sans-serif;
   color: var(--links);
 }
-.about-me-description {
-  text-align: center;
-  padding: 0 2em;
-}
-.content-container {
-  background-color: var(--content);
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  height: 100%;
-  width: 100%;
-  grid-column: 1 / 6;
-  grid-row: 2 / 6;
-}
-.grid-container {
+.body-container {
   display: grid;
   height: auto;
-  grid-template-columns: repeat(5, 20fr);
-  grid-template-rows: repeat(5, 20fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 7rem 1fr 7rem;
   align-items: center;
   justify-items: center;
 }
-.navigation-container {
-  background-color: var(--navigation);
-  display: grid;
-  align-items: center;
-  height: 100%;
-  width: 100%;
+.body {
+  margin: 0 2rem;
   grid-column: 1 / 6;
+  grid-row: 2 / 3;
+}
+.footer {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}
+.header {
+  grid-column: 1 / -1;
   grid-row: 1 / 2;
 }
-.navigation-items {
-  padding-left: 0;
-  text-align: center;
-}
-.underline {
-  text-decoration: underline;
-}
-
-@media (min-width: 40em) {
-  body {
-    min-height: 100%;
+@media (min-width: 600px) {
+  .body-container {
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 8rem 1fr 8rem;
+  }
+  .body {
     margin: 0;
-    padding: 0;
+    grid-column: 2 / 7;
   }
-  .content-container {
-    grid-column: 2 / 6;
-    grid-row: 1 / 6;
+}
+@media (min-width: 960px) {
+  .body-container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 9rem 1fr 9rem;
   }
-  .grid-container {
-    height: 100vh;
-  }
-  .navigation-container {
-    grid-column: 1 / 2;
-    grid-row: 1 / 6;
-  }
-  .navigation-items {
-    padding-left: 2rem;
-    text-align: left;
+  .body {
+    grid-column: 3 / 11;
   }
 }

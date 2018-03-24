@@ -1,18 +1,15 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
 import Landing from "./content/Landing";
 import About from "./content/About";
 import Contact from "./content/Contact";
 import Projects from "./content/Projects";
 
 const Body = () => (
-  <div className="content-container">
-    <Switch>
-      <Route exact path="/" component={Landing} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/projects" component={Projects} />
-    </Switch>
+  <div className="body">
+    <Landing />
+    <About />
+    <Contact />
+    <Projects />
   </div>
 );
 
